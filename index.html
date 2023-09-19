@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <div>
+          <label for="name">Vartotojo vardas</label>
+          <input type="text" name="name" id="name" />
+        </div>
+
+        <div>
+          <label
+            >Slaptazodis
+            <input type="password" name="password" />
+          </label>
+        </div>
+
+        <div>
+          <label for="email"
+            >El.Pastas
+            <input type="email" name="email" id="email" />
+          </label>
+        </div>
+
+        <div>
+          <label>Pristatymo adresas:</label>
+          <div>
+            <label
+              >Gatve
+              <input type="text" />
+            </label>
+          </div>
+          <div>
+            <label
+              >Namo nr.
+              <input type="text" />
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <div>Pasirinkite miesta:</div>
+          <select name="cities" id="select-city">
+            <option value="">--Pasirinkti miesta--</option>
+            <option value="jonava">Jonava</option>
+            <option value="kaunas">Kaunas</option>
+            <option value="vilnius">Vilnius</option>
+            <option value="kedainiai">Kedainiai</option>
+            <option value="kurmagala">Kurmagala</option>
+            <option value="palanga">Palanga</option>
+            <option value="trakai">Trakai</option>
+            <option value="siauliai">Siauliai</option>
+          </select>
+        </div>
+
+        <div>
+          Mokejimo budas
+          <div>
+            <label for="credit-card">Kreditine kortele</label>
+            <input type="radio" name="payment" id="swedbank" />
+          </div>
+          <div>
+            <label for="cash">Grynaisiais</label>
+            <input type="radio" name="payment" id="cash" />
+          </div>
+          <div>
+            <label for="bank-transfer">Bankiniu pavedimu</label>
+            <input type="radio" name="payment" id="bank-transfer" />
+          </div>
+          <div>
+            <label for="crypto">Kriptovaliuta</label>
+            <input type="radio" name="payment" id="crypto" />
+          </div>
+        </div>
+
+        <div>Pasirinkite dovanele/s:</div>
+
+        <div>
+          <label for="pen">Tusinukas</label>
+          <input type="checkbox" name="pen" id="pen" />
+        </div>
+        <div>
+          <label for="eraser">Trintukas</label>
+          <input type="checkbox" name="eraser" id="eraser" />
+        </div>
+        <div>
+          <label for="toy">Zaisliukas</label>
+          <input type="checkbox" name="toy" id="toy" />
+        </div>
+        <div>
+          <label for="notebook">Uzrasine</label>
+          <input type="checkbox" name="notebook" id="notebook" />
+        </div>
+        <div>
+          <label for="pencil-case">Penalas</label>
+          <input type="checkbox" name="pencil-case" id="pencil-case" />
+        </div>
+
+        <div>
+          <label for="info">Svarbi informacija:</label>
+          <textarea id="info" name="info" rows="5" cols="50"></textarea>
+        </div>
+
+        <div>
+          <button type="purchase">Uzsakyti</button>
+        </div>
+      </table>
+    </form>
+  </body>
+</html>
