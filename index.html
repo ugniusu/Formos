@@ -3,11 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Registration</title>
   </head>
   <body>
-    <form>
-      <table>
+    <form class="table">
+      <div class="login-table">
         <div>
           <label for="name">Vartotojo vardas</label>
           <input type="text" name="name" id="name" />
@@ -26,8 +27,9 @@
             <input type="email" name="email" id="email" />
           </label>
         </div>
+      </div>
 
-        <div>
+        <div class="delivery-table">
           <label>Pristatymo adresas:</label>
           <div>
             <label
@@ -43,7 +45,7 @@
           </div>
         </div>
 
-        <div>
+        <div class="choose-city">
           <div>Pasirinkite miesta:</div>
           <select name="cities" id="select-city">
             <option value="">--Pasirinkti miesta--</option>
@@ -58,8 +60,8 @@
           </select>
         </div>
 
-        <div>
-          Mokejimo budas
+        <div class="payment-table">
+          Mokejimo budas:
           <div>
             <label for="credit-card">Kreditine kortele</label>
             <input type="radio" name="payment" id="swedbank" />
@@ -103,7 +105,7 @@
 
         <div>
           <label for="info">Svarbi informacija:</label>
-          <textarea id="info" name="info" rows="5" cols="50"></textarea>
+          <textarea id="info" name="info" rows="5" cols="50" disabled></textarea>
         </div>
 
         <div>
