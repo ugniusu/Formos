@@ -1,0 +1,9 @@
+.table {
+    border: 2px solid black;
+    padding: 20px 20px;
+    border-radius: 10px;
+    box-shadow: 4px 8px 10px rgba(53, 53, 53, 0.493);
+    background: linear-gradient(200deg, #444, #fff);
+    margin-right: 50%;
+  
+  }

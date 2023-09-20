@@ -3,83 +3,84 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
     <title>Document</title>
   </head>
   <body>
-    <form>
-      <div>
-        <label for="nick-name"><strong>Vartotojo vardas</strong></label>
-        <input name="nick-name" id="nick-name" required />
-      </div>
+    <form class="table">
+        <div>
+          <label for="nick-name"><strong>Vartotojo vardas</strong></label>
+          <input name="nick-name" id="nick-name" required />
+        </div>
 
-      <div>
-        <label
-          ><strong>Slaptazodis</strong>
-          <input
-            type="password"
-            name="password"
-            minlength="7"
-            maxlength="12"
-            required
-          />
-        </label>
-      </div>
+        <div>
+          <label
+            ><strong>Slaptazodis</strong>
+            <input
+              type="password"
+              name="password"
+              minlength="7"
+              maxlength="12"
+              required
+            />
+          </label>
+        </div>
 
-      <div>
-        <label for="name"><strong>Vardas:</strong></label>
-        <input type="text" id="name" pattern="[A-Za-z]{1-15}" />
-      </div>
+        <div>
+          <label for="name"><strong>Vardas:</strong></label>
+          <input type="text" id="name" pattern="[A-Za-z]{1-15}" />
+        </div>
 
-      <div>
-        <label for="email"
-          ><strong>El.Pastas</strong>
-          <input type="email" name="email" id="email" required />
-        </label>
-      </div>
+        <div>
+          <label for="email"
+            ><strong>El.Pastas</strong>
+            <input type="email" name="email" id="email" required />
+          </label>
+        </div>
 
-      <div>
-        <label for="address"
-          ><strong>Adresas</strong>
-          <input type="text" id="address" name="address" required />
-        </label>
-      </div>
+        <div>
+          <label for="address"
+            ><strong>Adresas</strong>
+            <input type="text" id="address" name="address" required />
+          </label>
+        </div>
 
-      <div>
-        <label for="zip-code"
-          ><strong>Pasto kodas</strong>
-          <input type="text" id="zip-code" name="zip-code" pattern="[0-9]" />
-        </label>
-      </div>
+        <div>
+          <label for="zip-code"
+            ><strong>Pasto kodas</strong>
+            <input type="text" id="zip-code" name="zip-code" pattern="[0-9]" />
+          </label>
+        </div>
 
-      <div>
-        <strong>Lytis:</strong>
-        <label for="male">Male</label>
-        <input type="radio" name="gender" id="male" value="male" />
-        <label for="female">Female</label>
-        <input type="radio" name="gender" id="female" value="female" />
-      </div>
+        <div>
+          <strong>Lytis:</strong>
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="male" value="male" />
+          <label for="female">Female</label>
+          <input type="radio" name="gender" id="female" value="female" />
+        </div>
 
-      <div>
-        <strong>Pasirinkti kalba:</strong>
-        <label for="english">Anglu</label>
-        <input type="checkbox" id="english" name="english" />
+        <div>
+          <strong>Pasirinkti kalba:</strong>
+          <label for="english">Anglu</label>
+          <input type="checkbox" id="english" name="english" />
 
-        <label for="chinese">Kinu</label>
-        <input type="checkbox" id="chinese" name="chinese" />
+          <label for="chinese">Kinu</label>
+          <input type="checkbox" id="chinese" name="chinese" />
 
-        <label for="russian">Rusu</label>
-        <input type="checkbox" id="russian" name="russian" />
+          <label for="russian">Rusu</label>
+          <input type="checkbox" id="russian" name="russian" />
 
-        <label for="latvian">Latviu</label>
-        <input type="checkbox" id="latvian" name="latvian" />
-      </div>
+          <label for="latvian">Latviu</label>
+          <input type="checkbox" id="latvian" name="latvian" />
+        </div>
 
-      <div>
-        Svarbi info:
-        <textarea id="info" name="info" rows="10" cols="50"></textarea>
-      </div>
+        <div>
+          Svarbi info:
+          <textarea id="info" name="info" rows="10" cols="50"></textarea>
+        </div>
 
-      <button type="submit">Ok</button>
+        <button type="submit">Ok</button>
     </form>
   </body>
 </html>
